@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+   <section class="blog">
+
+     Blog
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.blog{
+  background-color: rgb(89, 126, 126);
   height: 200px;
   width: 100%;
 }

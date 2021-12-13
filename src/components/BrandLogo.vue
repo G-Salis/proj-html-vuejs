@@ -1,5 +1,10 @@
 <template>
-  <div></div>
+   <section class="brand-logo">
+
+     BrandLogo
+     
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.brand-logo{
+  background-color: rgb(187, 59, 149);
   height: 200px;
   width: 100%;
 }

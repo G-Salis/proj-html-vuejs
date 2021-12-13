@@ -1,5 +1,9 @@
 <template>
-  
+   <section class="header">
+
+     Header
+
+  </section>
 </template>
 
 <script>
@@ -12,5 +16,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+.header{
+  background-color: aqua;
+  height: 200px;
+  width: 100%;
+}
 </style>

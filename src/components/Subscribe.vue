@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+   <section class="subscribe">
+
+     Subscribe
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.subscribe{
+  background-color: rgb(124, 165, 11);
   height: 200px;
   width: 100%;
 }

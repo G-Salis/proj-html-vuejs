@@ -1,5 +1,9 @@
 <template>
-  
+   <section class="jumbotron">
+
+     Jumbotron
+
+  </section>
 </template>
 
 <script>
@@ -12,5 +16,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+.jumbotron{
+  background-color: rgb(201, 79, 195);
+  height: 200px;
+  width: 100%;
+}
 </style>

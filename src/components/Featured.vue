@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+   <section class="featured">
+
+     Featured
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.featured{
+  background-color: rgb(95, 18, 63);
   height: 200px;
   width: 100%;
 }

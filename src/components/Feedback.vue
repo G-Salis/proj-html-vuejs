@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+   <section class="feedback">
+
+     Feedback
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.feedback{
+  background-color: rgb(216, 169, 169);
   height: 200px;
   width: 100%;
 }

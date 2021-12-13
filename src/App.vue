@@ -31,7 +31,6 @@ import Blog from "./components/Blog.vue"
 import BrandLogo from "./components/BrandLogo.vue"
 import Subscribe from "./components/Subscribe.vue"
 import Footer from "./components/Footer.vue"
-import Sales from './components/Sales.vue'
 
 
 

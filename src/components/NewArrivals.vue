@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+   <section class="new-arrivals">
+
+     NewArrivals
+
+  </section>
 </template>
 
 <script>
@@ -12,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.new-arrivals{
+  background-color: rgb(238, 149, 149);
   height: 200px;
   width: 100%;
 }

@@ -1,8 +1,10 @@
 <template>
 
-<div>
+<section class="collection">
 
-</div>
+  Collection
+
+</section>
   
 </template>
 
@@ -16,8 +18,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-  background-color: aqua;
+.collection{
+  background-color: rgb(223, 177, 78);
   height: 200px;
   width: 100%;
 }
