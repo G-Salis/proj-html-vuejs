@@ -4,8 +4,8 @@
      <div class="jbt">
        <div class="jbt-title">Brand New Arrivals</div>
        <div class="jbt-subtitle">New Collection From New York</div>
-       <span class="btn-white">bottone</span>
-       <span class="btn-white">bottone</span>
+       <span class="btn-white">View All</span>
+       <span class="btn-white">LookBook</span>
      </div>
 
   </section>
@@ -45,6 +45,7 @@ export default {
   .jbt-subtitle{
     font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 15px;
   }
 
     @import "../assets/style/utilities.scss";
