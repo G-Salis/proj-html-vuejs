@@ -4,8 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   min-height: 150px;
 }
 
+.btn-blue{
+  background-color: #427ED5;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: white;
+}
