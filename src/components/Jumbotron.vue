@@ -1,7 +1,12 @@
 <template>
    <section class="jumbotron">
 
-     Jumbotron
+     <div class="jbt">
+       <div class="jbt-title">Brand New Arrivals</div>
+       <div class="jbt-subtitle">New Collection From New York</div>
+       <span class="btn-white">bottone</span>
+       <span class="btn-white">bottone</span>
+     </div>
 
   </section>
 </template>
@@ -17,8 +22,30 @@ export default {
 
 <style lang="scss">
 .jumbotron{
-  background-color: rgb(201, 79, 195);
-  height: 200px;
+  background-image: url(/img/home1_slide_three_bg_2.09943382.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 592px;
   width: 100%;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  }
+
+  .jbt{
+    color: white;
+  }
+
+  .jbt-title{
+    font-size: 100px;
+  }
+  .jbt-subtitle{
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+    @import "../assets/style/utilities.scss";
 </style>
