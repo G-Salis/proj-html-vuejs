@@ -78,7 +78,7 @@ export default {
 
 <style lang="scss">
 .best-seller{
-   color: white;
+  color: white;
   min-height: 200px;
   width: 85%;
   margin: 50px auto;
