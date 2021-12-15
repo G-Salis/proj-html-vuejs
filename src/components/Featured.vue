@@ -24,7 +24,7 @@
     <div class="ft-clothing">
       <div class="ft-chose">
 
-        <img src="../assets/img/black_elegant_leather_jacket-200x260.jpg" alt="">
+        <img src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
         <ul>
           <li>
             <div class="ft-name-clothing">
@@ -50,7 +50,7 @@
 
       <div class="ft-chose">
 
-        <img src="../assets/img/black_leather_suit-200x260.jpg" alt="">
+        <img src="../assets/img/black_leather_suit-400x520.jpg" alt="">
         <ul>
             <li>
               <div class="ft-name-clothing">
@@ -73,7 +73,7 @@
 
       <div class="ft-chose">
 
-        <img src="../assets/img/blue_jacket_and_white_stripe_tee-200x260.jpg" alt="">
+        <img src="../assets/img/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
         <ul>
             <li>
               <div class="ft-name-clothing">
@@ -96,7 +96,7 @@
 
       <div class="ft-chose">
 
-        <img src="../assets/img/blue_leather_jacket-200x260.jpg" alt="">
+        <img src="../assets/img/blue_leather_jacket-400x520.jpg" alt="">
         <ul>
           <li>
             <div class="ft-name-clothing">
@@ -182,7 +182,10 @@ export default {
 }
 
 .ft-chose{
-  text-align: left !important;
+   width: calc(100% / 4);
+   img{
+     width: 100%;
+   }
 }
 
 ul{
