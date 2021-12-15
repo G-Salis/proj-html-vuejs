@@ -21,8 +21,9 @@ export default {
 </script>
 
 <style lang="scss">
+
 .jumbotron{
-  background-image: url(/img/home1_slide_three_bg_2.09943382.jpg);
+  background-image: url('../assets/img/home1_slide_three_bg_2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -32,7 +33,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  text-align: center;
   }
 
   .jbt{

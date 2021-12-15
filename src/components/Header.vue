@@ -88,18 +88,23 @@ export default {
 </script>
 
 <style lang="scss">
+
+.header{
+  text-align: center;
+}
+
 i{
   font-size: 12px;
   padding-left: 5px;
 }
+
 .hdr{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #64686C;
+  color: #64686C !important;
   border-bottom: 1px solid #A0A5A5;
   height: 80px;
-  
 }
 
 .ctn-left{
@@ -110,7 +115,6 @@ i{
   height: 80px;
   line-height: 80px;
 
- 
 
   span{
     text-align: right;

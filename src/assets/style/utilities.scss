@@ -24,3 +24,26 @@
   font-size: 20px;
   color: white;
 }
+
+.btn-white:hover{
+  background-color: #427ED5;
+  border: 2px solid #427ED5;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: white;
+}
+
+.line{
+  width: 30%;
+  height: 1px;
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+.title{
+  width: 30%;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
